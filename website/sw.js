@@ -1,9 +1,12 @@
-const CACHE_NAME = 'hsl-shell-v7';
+const CACHE_NAME = 'hsl-shell-v8';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
   './icon-192.png',
+  './favicon-wolf-round.svg',
+  './favicon-wolf-round-32.png',
+  './favicon-wolf-round-192.png',
   './icon-512.png',
   './icon-maskable-512.png'
 ];
