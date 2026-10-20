@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.netlify/
+.env
+.env.*
+!.env.example
+.clasprc.json
+*.csv
+*.xlsx
+*.zip
+private-backups/
