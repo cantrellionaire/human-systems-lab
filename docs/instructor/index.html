@@ -38,7 +38,7 @@
         pause.hidden = true;
       });
       window.addEventListener('load', () => {
-        if (!paused) timer = window.setTimeout(() => window.location.replace(link.href), 3500);
+        if (!paused) timer = window.setTimeout(() => link.click(), 3500);
       });
     })();
   </script>
