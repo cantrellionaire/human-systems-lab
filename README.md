@@ -4,7 +4,11 @@ Staging source for the HSL Netlify shell. The initial website files reproduce th
 
 ## Instructor bookmark
 
-[Open the Google-authenticated HSL instructor dashboard](https://script.google.com/macros/s/AKfycbypxsHRUdp4m-MKRWeTyun-eatGSyLP_d1-mDjWRdz5FYg-CNJCtfRFIYmZ3fVDSoyB/exec)
+[Open the HSL instructor dashboard](https://cantrellionaire.github.io/human-systems-lab/instructor/)
+
+The GitHub Pages launcher supplies the HSL icon and opens the secure dashboard automatically. To save the launcher address and icon, use **Pause to bookmark this page**, then bookmark it; your next visit opens the dashboard automatically. Bookmark the GitHub Pages address, rather than the Google URL you land on.
+
+GitHub Pages publishes only `docs/` from `main`. The existing Netlify shell in `website/` is separate. No identity data or credentials are stored in the launcher.
 
 This separate bookmark requires the authorized Google account and an active instructor binding. Google may show an account chooser, sign-in, or consent screen. The link itself does not grant access; other accounts are denied. Normal entry through the HSL Hub retains the HSL pseudonym/code login.
 
