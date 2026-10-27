@@ -7,40 +7,11 @@
   <meta name="referrer" content="no-referrer">
   <title>HSL Instructor Dashboard</title>
   <link rel="icon" type="image/svg+xml" href="hsl-icon.svg">
-  <style>
-    :root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#edf7ff;background:#062439}
-    *{box-sizing:border-box}body{min-height:100svh;margin:0;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at top,#10517b,#031520 75%)}
-    main{width:min(100%,510px);text-align:center;padding:38px 28px;background:#092d45;border:1px solid #39708d;border-radius:24px;box-shadow:0 20px 80px #0005}
-    img{width:100px;height:100px;border-radius:50%}h1{font-size:clamp(1.5rem,5vw,2rem);margin:20px 0 12px}p{line-height:1.6;color:#c8dce9}a{color:#062439;background:#ffd166;font-weight:700;text-decoration:none;padding:14px 20px;border-radius:12px;display:inline-block;margin:12px 0}button{display:block;margin:14px auto 0;background:transparent;color:#d8edff;border:1px solid #6794ae;padding:11px 15px;border-radius:10px;font:inherit;cursor:pointer}a:focus-visible,button:focus-visible{outline:3px solid white;outline-offset:5px}.note{font-size:.9rem;margin-bottom:0}#status{min-height:3.2em}
-  </style>
+  <script>
+    window.location.replace('https://script.google.com/macros/s/AKfycbypxsHRUdp4m-MKRWeTyun-eatGSyLP_d1-mDjWRdz5FYg-CNJCtfRFIYmZ3fVDSoyB/exec');
+  </script>
 </head>
 <body>
-  <main>
-    <img src="hsl-icon.svg" alt="Human Systems Lab" width="100" height="100">
-    <h1>HSL Instructor Dashboard</h1>
-    <p id="status" role="status">Opening your Google-authenticated instructor dashboard…</p>
-    <a id="open" href="https://script.google.com/macros/s/AKfycbypxsHRUdp4m-MKRWeTyun-eatGSyLP_d1-mDjWRdz5FYg-CNJCtfRFIYmZ3fVDSoyB/exec" rel="noreferrer">Open dashboard now</a>
-    <button id="pause" type="button">Pause to bookmark this page</button>
-    <p class="note">Your authorized Google account is required. Google may ask you to choose an account or sign in.</p>
-    <noscript><p>Use “Open dashboard now” to continue.</p></noscript>
-  </main>
-  <script>
-    (() => {
-      const link = document.getElementById('open');
-      const pause = document.getElementById('pause');
-      const status = document.getElementById('status');
-      let paused = false;
-      let timer;
-      pause.addEventListener('click', () => {
-        paused = true;
-        clearTimeout(timer);
-        status.textContent = 'Opening paused. Press Ctrl+D (or Command+D on a Mac) to save this GitHub page with the HSL icon. It will open your dashboard automatically on your next visit.';
-        pause.hidden = true;
-      });
-      window.addEventListener('load', () => {
-        if (!paused) timer = window.setTimeout(() => link.click(), 3500);
-      });
-    })();
-  </script>
+  <p><a href="https://script.google.com/macros/s/AKfycbypxsHRUdp4m-MKRWeTyun-eatGSyLP_d1-mDjWRdz5FYg-CNJCtfRFIYmZ3fVDSoyB/exec" rel="noreferrer">Open HSL Instructor Dashboard</a></p>
 </body>
 </html>
