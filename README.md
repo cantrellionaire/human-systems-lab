@@ -2,6 +2,12 @@
 
 Staging source for the HSL Netlify shell. The initial website files reproduce the October 20 circular-wolf shell package. They embed the established Learning Community Apps Script Hub; they do not replace or deploy it.
 
+## Instructor bookmark
+
+[Open the Google-authenticated HSL instructor dashboard](https://script.google.com/macros/s/AKfycbypxsHRUdp4m-MKRWeTyun-eatGSyLP_d1-mDjWRdz5FYg-CNJCtfRFIYmZ3fVDSoyB/exec)
+
+This separate bookmark requires the authorized Google account and an active instructor binding. Google may show an account chooser, sign-in, or consent screen. The link itself does not grant access; other accounts are denied. Normal entry through the HSL Hub retains the HSL pseudonym/code login.
+
 ## Hosting boundary
 
 Netlify publishes **only `website/`**. Run `node scripts/check-site.mjs` before deployment. No build dependencies are required. Apps Script still provides the live Hub, identity, activities, Results, instructor tools, calendar, Sheets and Canvas operations. Activities can open Google URLs or new tabs; this repository does not introduce unified activity routing.
